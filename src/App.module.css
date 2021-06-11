@@ -1,0 +1,20 @@
+body {
+  min-height: 100vh;
+  background-color: rgb(255, 255, 255);
+  background-image: url("./svg/background-right.svg"),
+    url("./svg/background-left.svg");
+  background-position: bottom right, top left;
+  background-repeat: no-repeat;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-size: 80%;
+  }
+}

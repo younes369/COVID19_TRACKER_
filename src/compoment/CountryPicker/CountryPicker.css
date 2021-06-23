@@ -17,7 +17,7 @@ label {
   color: #707070;
 }
 .select {
-  margin: 0 1vw;
+  margin: 1vh 1vw;
 }
 .select select {
   border: none;
